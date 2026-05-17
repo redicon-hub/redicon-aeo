@@ -243,7 +243,7 @@ function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative"
         >
-          <div className="relative aspect-video rounded-2xl overflow-hidden border border-[var(--border)] bg-gradient-to-br from-[#1a1a1a] via-[#2a1f1c] to-[var(--brand)]/40 shadow-xl">
+          <div className="relative aspect-video rounded-2xl overflow-hidden border border-[var(--border)] bg-gradient-to-br from-[#1a1a1a] via-[#142730] to-[var(--brand)]/40 shadow-xl">
             {/* Decorative chat preview */}
             <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end gap-3">
               <div className="self-end max-w-[80%] rounded-2xl rounded-tr-md bg-white/10 backdrop-blur-md text-white text-sm px-4 py-2.5">
@@ -475,7 +475,7 @@ function HowItWorks() {
 
 function MidCTA() {
   return (
-    <section className="py-20 md:py-32" style={{ background: "linear-gradient(135deg, #FAF5F2 0%, #F5EBE6 100%)" }}>
+    <section className="py-20 md:py-32" style={{ background: "linear-gradient(135deg, #FAFAFA 0%, #E8F1F6 100%)" }}>
       <div className="mx-auto max-w-3xl px-6 md:px-8 text-center">
         <Reveal>
           <h2 className="text-3xl md:text-5xl font-medium leading-[1.1]">
